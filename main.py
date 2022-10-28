@@ -7,6 +7,7 @@ def main():
         # Enter your conversions here
         print("1. PKR to USD")
         print("2. SAR to PKR")
+        print("3. PKR to Pound")
 
         choice = int(input("Enter your conversion choice: "))
 
@@ -19,6 +20,10 @@ def main():
 
         if choice == 2:
             converted_amount = sar_to_pkr(amount)
+            print(f"The converted amount is {converted_amount}")
+            
+        if choice == 3:
+            converted_amount = pkr_to_pound(amount)
             print(f"The converted amount is {converted_amount}")
 
         cont = input("Do you want to continue? (Y)es or (N)o: ")
