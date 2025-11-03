@@ -26,10 +26,6 @@ CurrencyConverter-Python/
 ├── LICENSE # License file
 └── pycache/ # Cached Python files
 
-yaml
-Copy code
-
----
 
 ## ⚙️ Requirements
 - Python 3.6 or higher  
