@@ -1,12 +1,5 @@
-#  Currency Converter (Python)
-
-A simple **Python-based Currency Converter** project originally created by the repository author.  
-This contribution adds a proper **README file** to help others understand and use the project easily.
-
----
-
-##  Project Overview
-This program converts amounts between different currencies using predefined conversion rates.  
+## Currency Convertor
+Currency Convertor converts amounts between different currencies using predefined conversion rates.  
 It’s written in pure Python and is ideal for beginners learning about functions, modules, and basic input/output.
 
 ---
@@ -48,22 +41,41 @@ Run the script:
 python main.py
 💡 Example Output
 
-Enter amount: 100
-From currency: USD
-To currency: EUR
-Converted amount: 91.2 EUR
+Here are the choices for converions
+ 1. PKR to USD
+ 2. SAR to PKR
+ 3. PKR to GBP
+ 4. PKR to AED
+ 5. PKR to RUR
+ 6. PKR to CNY
+ 7. CNY to PKR
+ 8. PKR to BHD
+ 9. BHD to PKR
+10. PKR to INR
+11. INR to PKR
+12. BDT to PKR
+13. PKR to BDT
+14. DKK to PKR
+15. PKR to DKK
+16. EUR to PKR
+17. PKR to EUR
+18. WON to PKR
+19. PKR to WON
+20. LIRA to PKR
+21. PKR to LIRA
+22. PKR to RIAL
+23. RIAL to PKR
+Enter your conversion choice: 4
+Enter amount to convert: 56
+The converted amount is 0.9520000000000001
+Do you want to continue? (Y)es or (N)o:
 
-💻 Contribution Note
-This README.md file was added as part of a contribution to improve project documentation
-and make it more accessible to new users and contributors.
+💻 Contributors
+Name: Yasir Imran
 
 🪪 License
 This project is released under the terms of the MIT License.
 All credit for the original code goes to the project’s author.
-
-🙌 Contributed By
-Yasir Imran
-Added documentation and project overview.
 
 
 
